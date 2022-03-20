@@ -4,7 +4,7 @@ import axios from 'axios';
 //Crear el context
 const CategoriasContext = React.createContext();
 
-export const ContextConsumer = CategoriasContext.Consumer;
+export const CategoriasConsumer = CategoriasContext.Consumer;
 
 class CategoriasProvider extends Component {
 
