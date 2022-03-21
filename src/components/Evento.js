@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Evento = ({evento}) => {
    
@@ -37,4 +38,7 @@ const Evento = ({evento}) => {
      );
 }
  
+Evento.propTypes = {
+    evento : PropTypes.object.isRequired
+}
 export default Evento;
